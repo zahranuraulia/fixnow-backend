@@ -93,5 +93,27 @@
             "comment": "Kulkas sudah benar, tapi alatnya ada yang ketinggalan.",
             "date": "2026-05-11"
         }
+    ],
+    "categories": [
+        {
+            "id": "CAT-001",
+            "name": "Rumah",
+            "image_url": "https://cdn-icons-png.flaticon.com/512/619/619153.png",
+            "sub_services": [
+                "Service AC",
+                "Sedot WC",
+                "Pembersihan Rumah"
+            ]
+        },
+        {
+            "id": "CAT-002",
+            "name": "Listrik",
+            "image_url": "https://cdn-icons-png.flaticon.com/512/2906/2906232.png",
+            "sub_services": [
+                "Pasang Lampu",
+                "Perbaikan Korsleting",
+                "Instalasi Jalur Baru"
+            ]
+        }
     ]
 }
