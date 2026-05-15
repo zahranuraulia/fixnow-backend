@@ -1,0 +1,97 @@
+{
+    "users": [
+        {
+            "id": "USR-772",
+            "full_name": "Serena Putri Kirana",
+            "phone": "+62 856 0876 4779",
+            "email": "serena.putri@email.com",
+            "avatar": "https://i.pravatar.cc/150?u=serena"
+        }
+    ],
+    "profile": {
+        "name": "Zahra Aulia",
+        "email": "zahra.aulia@example.com",
+        "phone": "+62 856 0876 4779",
+        "address": "Jl. Bratan V, G5 H1",
+        "wallet_balance": 500000,
+        "avatar_url": "https://i.pravatar.cc/150?u=zahra"
+    },
+    "technicians": [
+        {
+            "id": "T-001",
+            "name": "Ahmad Tohari",
+            "specialization": "Service AC Split",
+            "rating": 4.8,
+            "experience": "4 Tahun",
+            "distance": "1.5 Km",
+            "price_per_unit": 120000,
+            "image_url": "https://randomuser.me/api/portraits/men/32.jpg",
+            "is_verified": true,
+            "reviews_count": 135
+        },
+        {
+            "id": "T-002",
+            "name": "Fauzan Engkol",
+            "specialization": "Spesialis Kulkas & TV",
+            "rating": 4.7,
+            "experience": "1 Tahun",
+            "distance": "3.4 Km",
+            "price_per_unit": 100000,
+            "image_url": "https://randomuser.me/api/portraits/men/44.jpg",
+            "is_verified": true,
+            "reviews_count": 89
+        },
+        {
+            "id": "T-003",
+            "name": "Bram e ram e",
+            "specialization": "Instalasi Listrik",
+            "rating": 4.9,
+            "experience": "10 Tahun",
+            "distance": "11 Km",
+            "price_per_unit": 150000,
+            "image_url": "https://randomuser.me/api/portraits/men/12.jpg",
+            "is_verified": true,
+            "reviews_count": 250
+        }
+    ],
+    "orders": [
+        {
+            "id": "ORD-2026-001",
+            "service_name": "Service AC Split",
+            "technician_name": "Ahmad Tohari",
+            "status": "Dalam Proses",
+            "date": "Rabu, 13 Maret 2026",
+            "time": "10:00",
+            "total_price": 94000,
+            "image_url": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+            "id": "ORD-2026-002",
+            "service_name": "Deep Cleaning Rumah",
+            "technician_name": "Susan Susanti",
+            "status": "Dijadwalkan",
+            "date": "Kamis, 14 Maret 2026",
+            "time": "09:00",
+            "total_price": 250000,
+            "image_url": "https://randomuser.me/api/portraits/women/45.jpg"
+        }
+    ],
+    "reviews": [
+        {
+            "id": "REV-001",
+            "tech_id": "T-001",
+            "user_name": "Zahra Aulia",
+            "rating": 5,
+            "comment": "Sangat cepat dan AC jadi dingin lagi! Ahmad sangat ramah.",
+            "date": "2026-05-10"
+        },
+        {
+            "id": "REV-002",
+            "tech_id": "T-002",
+            "user_name": "Andi Pratama",
+            "rating": 4,
+            "comment": "Kulkas sudah benar, tapi alatnya ada yang ketinggalan.",
+            "date": "2026-05-11"
+        }
+    ]
+}
