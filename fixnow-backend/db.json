@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "id": "USR-772",
+            "name": "Serena Putri Kirana",
+            "email": "serena.putri@email.com",
+            "password": "password123",
+            "balance": 500000,
+            "phone": "+62 856 0876 4779",
+            "avatar_url": "https://i.pravatar.cc/150?u=serena"
+        }
+    ],
+    "technicians": [
+        {
+            "id": "T-001",
+            "name": "Ahmad Tohari",
+            "specialization": "Service AC Split",
+            "rating": 4.8,
+            "experience": "4 Tahun",
+            "image_url": "https://randomuser.me/api/portraits/men/32.jpg",
+            "price": 120000,
+            "distance": "1.5 Km",
+            "is_verified": true,
+            "reviews_count": 135
+        },
+        {
+            "id": "T-002",
+            "name": "Fauzan Engkol",
+            "specialization": "Spesialis Kulkas & TV",
+            "rating": 4.7,
+            "experience": "1 Tahun",
+            "image_url": "https://randomuser.me/api/portraits/men/44.jpg",
+            "price": 100000,
+            "distance": "3.4 Km",
+            "is_verified": true,
+            "reviews_count": 89
+        }
+    ],
+    "orders": [
+        {
+            "id": "ORD-2026-001",
+            "service_name": "Service AC Split",
+            "technician_name": "Ahmad Tohari",
+            "status": "Dalam Proses",
+            "date": "Rabu, 13 Maret 2026",
+            "time": "10:00",
+            "total_price": 94000,
+            "image_url": "https://randomuser.me/api/portraits/men/32.jpg"
+        }
+    ],
+    "categories": [
+        {
+            "id": "CAT-001",
+            "name": "Rumah",
+            "image_url": "https://cdn-icons-png.flaticon.com/512/619/619153.png"
+        }
+    ]
+}
